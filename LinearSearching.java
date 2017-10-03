@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Linear {
+class Linear {
 	
 	private static int linear_search(int[] arr, int search) {
 		for (int i = 0; i < arr.length; i++) {
