@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-public class Binary {
+class Binary {
+	
 	private static int binary_search(int[] arr, int search) {
 		int end = arr.length-1;
 		int start = 0;
@@ -16,19 +17,7 @@ public class Binary {
 		}
 		return -1;
 	}
-	//Recursive
-	/*private static int binary_search1(int[] arr, int low, int high, int search) {
-		int mid = (low+high)/2;
-		if(high>=low) {
-			if(arr[mid]==search)
-				return mid;
-			else if(arr[mid]>search)
-				binary_search1(arr, low, mid-1, search);
-			else if(arr[mid]<search)
-				binary_search1(arr, mid+1, high, search);
-		}
-		return -1;
-	}*/
+	
 	
 	
 	
